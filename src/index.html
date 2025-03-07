@@ -6,8 +6,287 @@
     @@include("partials/head/head-links.html")
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, facilis libero! Assumenda rerum nam voluptates? Suscipit deserunt sint expedita. Corrupti quisquam eaque et porro itaque illo, deserunt repudiandae numquam accusamus!</h2>
+    @@include("partials/navbar.html")
+    <main>
+     <!-- hero section -->
+     <section class="py-16 position-relative" style="background: linear-gradient(8deg, #c8fad6 0%, #c8fad6 48%,#5be49b 100%)">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-md-12">
+            <div class="text-center d-flex flex-column gap-8">
+               <div class="d-flex flex-column gap-4">
+                <h1 class="mb-0">Develop beautiful web apps with Dasher</h1>
+                <p class="mb-0 mx-lg-15">Dasher is a web application UI kit based on Bootstrap 5, with hundreds responsive components and multiple dashboard and useful pages.</p class="mb-0">
+               </div>
+               <div class="d-flex flex-column gap-3">
+                <div>
+                  <a href="#!" class="btn btn-dark ">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="20"  height="20"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bolt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" /></svg>
+                    <span class="ms-2">Live preview</span>
+                  </a>
+                </div>
+                <div>
+                  <small>v1.0.0</small>
+                </div>
+               </div>
+            </div>
+            <div class="position-absolute top-0 pt-xl-15 pt-15">
+              <img src="./assets/images/svg/circle-1.svg" alt="">
+            </div>
+            <div class="position-absolute bottom-0 pb-16 ps-12">
+              <img src="./assets/images/svg/circle-2.svg" alt="">
+            </div>
+            <div class="position-absolute end-0 top-0 pe-xl-18 me-xl-18 pe-md-16 pe-5 pt-11">
+              <img src="./assets/images/svg/circle-3.svg" alt="">
+            </div>
+            <div class="position-absolute bottom-0 end-0 pb-18 me-xl-18 pe-xl-16 pe-10">
+              <img src="./assets/images/svg/circle-2.svg" alt="">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+      <!-- hero section -->
+       <!-- dashboard img -->
+        <div class="py-lg-16 py-10">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div>
+                  <img src="./assets/images/dashboard-img/projects.jpg" alt="projects" class="img-fluid w-100  shadow rounded-4">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       <!-- dashboard img -->
+      <!-- develpoer -->
+      <section class="py-xxl-16 py-10">
+        <div class="container">
+          <div class="row gy-10 gy-lg-0">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="text-center d-flex gap-10 flex-column">
+                <div>
+                  <span class="bg-whiite rounded-3 shadow p-5 text-center">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bootstrap text-primary"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 12a2 2 0 0 0 2 -2v-4a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2" /><path d="M2 12a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-4a2 2 0 0 1 2 -2" /><path d="M9 16v-8h3.5a2 2 0 1 1 0 4h-3.5h4a2 2 0 1 1 0 4h-4z" /></svg>
+                  </span>
+                </div>
+                <div class=" d-flex flex-column gap-2">
+                  <h2 class="mb-0 fs-4">Based on Bootstrap 5</h2>
+                  <p class="mb-0 px-xxl-10 px-xl-8">Based on the latest version of Bootstrap, Dasher is a UI Kit of the future</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="text-center d-flex gap-10 flex-column">
+                <div>
+                  <span class="bg-whiite rounded-3 shadow p-5 text-center">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-layout-grid text-primary"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /><path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /><path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /><path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /></svg>
+                  </span>
+                </div>
+                <div class=" d-flex flex-column gap-2">
+                  <h2 class="mb-0 fs-4">Modern UI & UX design</h2>
+                  <p class="mb-0 px-xxl-10 px-xl-8">The kit is built on the principles of the atomic design system. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="text-center d-flex gap-10 flex-column">
+                <div>
+                  <span class="bg-whiite rounded-3 shadow p-5 text-center">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-visual-studio text-primary"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8l2 -1l10 13l4 -2v-12l-4 -2l-10 13l-2 -1z" /></svg>
+                  </span>
+                </div>
+                <div class=" d-flex flex-column gap-2">
+                  <h2 class="mb-0 fs-4">Developer friendly</h2>
+                  <p class="mb-0 px-xxl-10 px-xl-8">Beautiful, fully responsive UI elements that will make your design modern and user-friendly</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- developer -->
+        <!-- dasbher demo -->
+         <section class="py-xxl-16 py-10">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="text-center mb-lg-10 mb-6 d-flex flex-column gap-3">
+                  <h2 class="mb-0">Dasher Demos</h2>
+                  <p class="mb-0">Ready-to-use UI elements enable to develop modern web application with great speed</p>
+                </div>
+              </div>
+            </div>
+            <div class="row gy-8">
+              <div class="col-lg-4 col-md-6">
+                <a href="#!">
+                  <img src="./assets/images/demo/demo-1.jpg" alt="demo 1" class="img-fluid w-100 rounded-3 shadow-lg">
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <a href="#!">
+                  <img src="./assets/images/demo/demo-1.jpg" alt="demo 1" class="img-fluid w-100 rounded-3 shadow-lg">
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <a href="#!">
+                  <img src="./assets/images/demo/demo-1.jpg" alt="demo 1" class="img-fluid w-100 rounded-3 shadow-lg">
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <a href="#!">
+                  <img src="./assets/images/demo/demo-1.jpg" alt="demo 1" class="img-fluid w-100 rounded-3 shadow-lg">
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <a href="#!">
+                  <img src="./assets/images/demo/demo-1.jpg" alt="demo 1" class="img-fluid w-100 rounded-3 shadow-lg">
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <a href="#!">
+                  <img src="./assets/images/demo/demo-1.jpg" alt="demo 1" class="img-fluid w-100 rounded-3 shadow-lg">
+                </a>
+              </div>
+            </div>
+          </div>
+         </section>
+         <!-- dasbher demo -->
+          <!-- features -->
+           <section class="py-xxl-16 py-10">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="text-center mb-lg-10 mb-6 d-flex flex-column gap-3">
+                    <h2 class="mb-0">Highlight features</h2>
+                    <p class="mb-0">Ready-to-use UI elements enable to develop modern web application with great speed</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row gy-8">
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bootstrap"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 12a2 2 0 0 0 2 -2v-4a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2" /><path d="M2 12a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-4a2 2 0 0 1 2 -2" /><path d="M9 16v-8h3.5a2 2 0 1 1 0 4h-3.5h4a2 2 0 1 1 0 4h-4z" /></svg></span>
+                   <h3 class="mb-0 fs-4">Built with Bootstrap 5</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg width="32" height="32" viewBox="0 0 43 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#1f513cda)">
+                      <path  d="M36.8834 18.3833C35.3917 18.3917 34.1 18.75 33.0167 19.2834C32.6167 18.4917 32.2167 17.8 32.1501 17.2834C32.0751 16.6834 31.9834 16.3166 32.0751 15.6001C32.1667 14.8833 32.5834 13.8666 32.5834 13.7833C32.5749 13.7083 32.4916 13.3416 31.6334 13.3333C30.7751 13.325 30.0333 13.5 29.95 13.725C29.8667 13.95 29.7 14.4666 29.5917 15C29.4417 15.7833 27.875 18.5583 26.9833 20.0166C26.6917 19.45 26.4417 18.95 26.3916 18.5499C26.3167 17.95 26.2249 17.5832 26.3167 16.8666C26.4083 16.1499 26.825 15.1333 26.825 15.05C26.8167 14.975 26.7334 14.6083 25.8751 14.6C25.0167 14.5916 24.2751 14.7666 24.1918 14.9916C24.1084 15.2166 24.0168 15.75 23.8334 16.2666C23.6583 16.7833 21.575 21.4166 21.0333 22.625C20.7583 23.2416 20.5168 23.7333 20.3417 24.0666C20.1667 24.4 20.3333 24.0916 20.3167 24.125C20.1667 24.4083 20.0833 24.5666 20.0833 24.5666V24.5751C19.9667 24.7834 19.8417 24.9833 19.7833 24.9833C19.7416 24.9833 19.6583 24.425 19.7999 23.6584C20.1083 22.05 20.8583 19.5417 20.85 19.4501C20.85 19.4084 20.9916 18.9666 20.3666 18.7417C19.7583 18.5167 19.5417 18.8917 19.4916 18.8917C19.4416 18.8917 19.3999 19.0251 19.3999 19.0251C19.3999 19.0251 20.0749 16.2001 18.1083 16.2001C16.8749 16.2001 15.1749 17.5418 14.3333 18.7668C13.7999 19.0585 12.6666 19.6751 11.4666 20.3335C11.0083 20.5835 10.5333 20.8501 10.0833 21.0918L9.99168 20.9916C7.60835 18.45 3.20002 16.65 3.38335 13.2333C3.45002 11.9916 3.88335 8.71664 11.8501 4.74997C18.3751 1.49997 23.6001 2.39164 24.5084 4.37497C25.8 7.2083 21.7167 12.475 14.9334 13.2333C12.3501 13.525 10.9917 12.525 10.6501 12.15C10.2918 11.7583 10.2418 11.7416 10.1084 11.8166C9.89177 11.9333 10.0251 12.2833 10.1084 12.4916C10.3084 13.0166 11.1418 13.95 12.5584 14.4166C13.8 14.825 16.8334 15.05 20.5001 13.6333C24.6084 12.0416 27.8168 7.62497 26.8751 3.9333C25.9168 0.174969 19.6834 -1.05836 13.7918 1.0333C10.2833 2.2833 6.48335 4.2333 3.75002 6.79164C0.500016 9.82497 -0.0166512 12.475 0.200016 13.575C0.958432 17.5 6.36668 20.0583 8.53335 21.95C8.42502 22.0082 8.32502 22.0666 8.23335 22.1166C7.15002 22.6499 3.02502 24.8083 1.99168 27.0916C0.825016 29.6749 2.17502 31.5333 3.07502 31.7833C5.85835 32.5583 8.70835 31.1666 10.25 28.875C11.7833 26.5833 11.6 23.6083 10.8917 22.25L10.8666 22.2L11.7166 21.7C12.2667 21.375 12.8083 21.075 13.2833 20.8166C13.0167 21.5416 12.8249 22.3999 12.725 23.6499C12.6083 25.1166 13.2083 27.0166 14 27.7666C14.35 28.0915 14.7667 28.0999 15.025 28.0999C15.9417 28.0999 16.3583 27.3415 16.8167 26.4332C17.3833 25.3249 17.8834 24.0416 17.8834 24.0416C17.8834 24.0416 17.2584 27.5166 18.9667 27.5166C19.5917 27.5166 20.2167 26.7082 20.5 26.2916V26.2999C20.5 26.2999 20.5167 26.2749 20.55 26.2166C20.585 26.1649 20.6183 26.1121 20.65 26.0583V26.0416C20.9 25.6083 21.4583 24.6166 22.2917 22.975C23.3666 20.8583 24.4 18.2083 24.4 18.2083C24.4 18.2083 24.5 18.8583 24.8083 19.925C24.9916 20.5584 25.3916 21.25 25.6999 21.925C25.4499 22.275 25.2999 22.4751 25.2999 22.4751L25.3083 22.4834C25.1083 22.7501 24.8833 23.0335 24.65 23.3167C23.8 24.3334 22.7833 25.4918 22.65 25.8251C22.4917 26.2167 22.525 26.5084 22.8333 26.7418C23.0583 26.9085 23.4583 26.9417 23.8834 26.9085C24.65 26.8584 25.1833 26.6668 25.45 26.5501C25.8667 26.4001 26.3417 26.1751 26.8 25.8417C27.6334 25.2251 28.1417 24.3501 28.0917 23.1835C28.0667 22.5418 27.8584 21.9085 27.6 21.3085C27.675 21.2001 27.7501 21.0917 27.825 20.9751C29.1417 19.0501 30.1583 16.9335 30.1583 16.9335C30.1583 16.9335 30.2583 17.5835 30.5667 18.6501C30.7249 19.1918 31.0417 19.7836 31.325 20.3669C30.0917 21.3752 29.3167 22.5419 29.05 23.3086C28.5583 24.7252 28.9417 25.3669 29.6667 25.5169C29.9916 25.5836 30.4583 25.4336 30.8083 25.2836C31.2416 25.1419 31.7666 24.9001 32.25 24.5419C33.0834 23.9252 33.8834 23.0669 33.8417 21.9086C33.8167 21.3752 33.675 20.8502 33.4833 20.3502C34.5333 19.9169 35.8916 19.6669 37.6167 19.8752C41.325 20.3086 42.0583 22.6252 41.9168 23.5919C41.7751 24.5586 41.0001 25.0919 40.7417 25.2586C40.4833 25.4169 40.4 25.4753 40.425 25.5919C40.4584 25.767 40.575 25.7586 40.8 25.7253C41.1083 25.6752 42.75 24.9336 42.8167 23.1504C42.9167 20.8584 40.7417 18.3584 36.8834 18.3833ZM8.28335 28.025C7.05835 29.3666 5.33335 29.875 4.60002 29.4416C3.80835 28.9833 4.1166 27.0083 5.62502 25.5833C6.54168 24.7166 7.73335 23.9166 8.51668 23.425C8.69168 23.3166 8.95835 23.1584 9.27502 22.9666C9.32502 22.9334 9.35835 22.9166 9.35835 22.9166C9.41668 22.8833 9.48335 22.8416 9.55002 22.8C10.1083 24.8333 9.57502 26.6166 8.28335 28.025ZM17.2417 21.9333C16.8167 22.975 15.9167 25.65 15.375 25.5C14.9083 25.375 14.625 23.35 15.2833 21.35C15.6166 20.3416 16.3249 19.1416 16.7416 18.6749C17.4167 17.9249 18.1499 17.6749 18.3333 17.9832C18.55 18.3833 17.5083 21.2833 17.2417 21.9333ZM24.6334 25.4666C24.45 25.5584 24.2833 25.625 24.2083 25.5751C24.15 25.5417 24.2833 25.4167 24.2833 25.4167C24.2833 25.4167 25.2083 24.4251 25.5749 23.9667C25.7833 23.7001 26.0333 23.3918 26.2999 23.0417V23.1417C26.3 24.3416 25.15 25.1416 24.6334 25.4666ZM30.3333 24.1666C30.1999 24.0666 30.2167 23.7583 30.6666 22.7916C30.8417 22.4083 31.2416 21.7666 31.9333 21.1583C32.0166 21.4083 32.0667 21.6499 32.0583 21.875C32.05 23.375 30.9833 23.9333 30.3333 24.1666Z" fill="#1C252E"></path>
+                    </g>
+                    <defs>
+                      <clipPath>
+                        <rect width="42.6667" height="32" fill="white" transform="translate(0.166687)"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg></span>
+                   <h3 class="mb-0 fs-4">SASS Supported</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-html5"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" /><path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" /></svg></span>
+                   <h3 class="mb-0 fs-4">Coded with HTML5</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg width="32" height="32" viewBox="0 0 14 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#143bbb25)">
+                      <path d="M10.7863 31.0248L11.083 25.9121L11.9023 24.4659C11.9023 24.4659 10.0376 25.2547 6.91569 25.2547C3.79374 25.2547 1.95726 24.4805 1.95726 24.4805L2.87548 26.0581L3.2003 31.0248C3.2003 31.5573 4.89845 31.9889 6.99333 31.9889C9.08809 31.9889 10.7863 31.5573 10.7863 31.0248ZM9.85032 7.14945L10.4731 4.60387L13.9221 0.851159L13.013 0.0505371L9.36163 4.04811L8.6385 7.08941C8.09425 7.07055 7.54974 7.06118 7.00519 7.06131C3.15957 7.06131 0.0420532 7.51451 0.0420532 8.07343C0.0420532 8.63242 3.15957 9.08556 7.00519 9.08556C10.8508 9.08556 13.9682 8.63242 13.9682 8.07343C13.9682 7.66184 12.2774 7.30758 9.85032 7.14945Z" fill="#1C252E"></path>
+                      <path d="M9.48805 8.57487C9.48805 8.57487 9.35316 8.60613 8.95639 8.60789C8.5595 8.60958 8.2777 8.60523 8.16546 8.4995C8.13528 8.47112 8.11876 8.41475 8.11893 8.37659C8.11926 8.30394 8.16912 8.26114 8.23265 8.23434L8.29274 8.33181C8.26661 8.34114 8.25168 8.35217 8.25162 8.36393C8.25141 8.41911 8.65742 8.45687 8.96798 8.4528C9.27859 8.44885 9.65388 8.42239 9.6542 8.368C9.6542 8.35155 9.62583 8.33605 9.57645 8.32384L9.63627 8.22705C9.71675 8.25289 9.78701 8.30281 9.78684 8.3892C9.78608 8.53608 9.60532 8.55842 9.48805 8.57487Z" fill="white"></path>
+                      <path d="M13.9153 0.858579C14.002 0.755003 13.8704 0.49007 13.6213 0.266918C13.3722 0.0438789 13.0999 -0.0530257 13.013 0.0505503C12.9263 0.154126 13.0579 0.419059 13.3071 0.642098C13.5561 0.865193 13.8285 0.962211 13.9153 0.858579ZM10.6204 18.5367C10.5387 17.7234 12.3406 16.5456 11.8781 16.5079C10.8826 16.5668 10.3872 17.7143 9.88628 18.9162C9.70273 19.3567 9.07468 21.2349 8.66276 21.0037C8.25095 20.7726 9.19666 19.228 9.46172 18.3108C9.15587 18.5427 8.03421 19.4439 7.74515 18.5999C7.28041 19.0081 6.28735 19.2292 6.39938 18.1571C6.15214 18.6099 5.59724 19.2422 4.93119 18.9795C4.0565 18.6345 5.43803 15.7533 5.78155 15.8987C6.12513 16.044 5.71222 16.7003 5.60407 16.9552C5.36624 17.5161 5.0915 18.2212 5.27504 18.3656C5.58948 18.6129 6.44514 17.4301 6.46417 17.404C6.6242 17.1854 7.08013 15.7551 7.44761 15.9193C7.81508 16.0836 6.53103 17.9721 7.01114 18.3469C7.10796 18.4225 7.50414 18.3002 7.74515 18.0306C7.90108 17.8562 7.84744 17.4699 8.36724 16.188C8.88703 14.9063 9.3503 13.31 9.70678 13.4316C10.0633 13.5532 9.76943 14.3725 9.64155 14.6779C9.04144 16.1113 8.00371 18.4795 8.4931 18.3002C8.9825 18.121 9.23734 18.1105 9.71656 17.5306C10.1958 16.9507 10.1737 15.9955 10.4931 16.0158C10.8126 16.0361 10.759 16.3424 10.6815 16.5756C10.9959 16.2036 12.1717 15.4201 12.4556 16.1961C12.7919 17.1147 10.7733 18.4417 11.2766 18.3741C11.7673 18.3081 12.5623 17.7874 12.9017 17.314L13.836 8.62847C13.836 8.62847 12.8959 9.43299 6.91474 9.43299C0.933569 9.43299 0.0906982 8.64521 0.0906982 8.64521L0.88611 16.5731C1.30831 15.3322 2.31089 12.8225 3.89121 12.9067C4.61008 12.945 5.56974 14.3764 4.7477 14.4249C4.39975 14.4453 4.36443 13.7104 3.9524 13.6025C3.65507 13.5246 3.24113 13.7745 2.9736 14.0453C2.44008 14.5853 1.29262 16.7155 1.44423 17.7776C1.6374 19.1316 3.25113 17.3071 3.52418 16.7654C3.71647 16.3838 3.84638 15.2533 4.26694 15.3719C4.68756 15.4906 4.23025 16.6573 3.92539 17.6888C3.5829 18.847 3.40286 20.0689 2.9736 19.9283C2.54429 19.7879 3.24359 18.2926 3.21827 18.0306C2.81477 18.4156 2.07141 19.3901 1.12039 18.9078L1.61438 23.8309C1.61438 23.8309 2.92729 24.9036 6.88232 24.9036C10.8373 24.9036 12.1989 23.8476 12.1989 23.8476L12.8123 18.1455C12.3104 18.6508 10.7221 19.5482 10.6204 18.5367Z" fill="#1C252E"></path>
+                    </g>
+                    <defs>
+                      <clipPath id="143bbb25">
+                        <rect width="14" height="32" fill="white"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg></span>
+                   <h3 class="mb-0 fs-4">Gulp based Workflow</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-type-js"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M3 15h3v4.5a1.5 1.5 0 0 1 -3 0" /><path d="M9 20.25c0 .414 .336 .75 .75 .75h1.25a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1h-1a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h1.25a.75 .75 0 0 1 .75 .75" /><path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-1" /></svg></span>
+                   <h3 class="mb-0 fs-4">Future Proof Java-Script</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-sun"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg></span>
+                   <h3 class="mb-0 fs-4">Light/ Dark Mode</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-send"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 14l11 -11" /><path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" /></svg></span>
+                   <h3 class="mb-0 fs-4">Kick-Start Your Development</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-dots"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" /><path d="M9 14v.01" /><path d="M12 14v.01" /><path d="M15 14v.01" /></svg></span>
+                   <h3 class="mb-0 fs-4">Developer Docs</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg width="32" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#eaa60880)">
+                      <path d="M17.8334 12.0001C17.8334 11.6465 17.9739 11.3073 18.2239 11.0573C18.4739 10.8072 18.8131 10.6667 19.1667 10.6667H27.1667C27.5203 10.6667 27.8595 10.8072 28.1095 11.0573C28.3596 11.3073 28.5 11.6465 28.5 12.0001V25.3334C28.5 25.687 28.3596 26.0262 28.1095 26.2762C27.8595 26.5263 27.5203 26.6667 27.1667 26.6667H19.1667C18.8131 26.6667 18.4739 26.5263 18.2239 26.2762C17.9739 26.0262 17.8334 25.687 17.8334 25.3334V12.0001Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M24.5 10.6666V6.66659C24.5 6.31296 24.3595 5.97382 24.1095 5.72378C23.8594 5.47373 23.5203 5.33325 23.1667 5.33325H5.83333C5.47971 5.33325 5.14057 5.47373 4.89052 5.72378C4.64048 5.97382 4.5 6.31296 4.5 6.66659V22.6666C4.5 23.0202 4.64048 23.3593 4.89052 23.6094C5.14057 23.8594 5.47971 23.9999 5.83333 23.9999H17.8333" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M21.8334 12H24.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <defs>
+                      <clipPath id="eaa60880">
+                        <rect width="32" height="32" fill="white" transform="translate(0.5)"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg></span>
+                   <h3 class="mb-0 fs-4">Mobile friendly website</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-tabler"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 9l3 3l-3 3" /><path d="M13 15h3" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg></span>
+                   <h3 class="mb-0 fs-4">Tabler Icons</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#ec7eb0ae)">
+                      <path d="M4 16L8 20L12 16L8 12L4 16Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path  d="M20 16L24 20L28 16L24 12L20 16Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M12 8L16 12L20 8L16 4L12 8Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path  d="M12 24L16 28L20 24L16 20L12 24Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <defs>
+                      <clipPath id="ec7eb0ae">
+                        <rect width="32" height="32" fill="white"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg></span>
+                   <h3 class="mb-0 fs-4">Interactive Components</h3>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="d-flex flex-column gap-6 text-center py-6">
+                  <span><svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z" /></svg></span>
+                   <h3 class="mb-0 fs-4">Clean Design</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
+           <!--features -->
+    </main>
+   
     @@include("partials/scripts.html")
   </body>
 </html>

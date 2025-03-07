@@ -380,7 +380,7 @@ $theme-colors-rgb: map-loop($theme-colors, to-rgb, '$value');
 // Option
 $enable-negative-margins: true;
 
-$gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
+$gradient: linear-gradient(8deg, rgba(200,250,214,1) 0%, rgba(200,250,214,1) 48%, rgba(91,228,155,0.9915615904564951) 100%);
 // color ratio
 $min-contrast-ratio: 2 !default;
 

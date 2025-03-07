@@ -3626,7 +3626,7 @@
 
 .bg-bg-gradient {
   --ds-bg-opacity: 1;
-  background-color: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)) !important;
+  background-color: linear-gradient(8deg, rgb(200, 250, 214) 0%, rgb(200, 250, 214) 48%, rgba(91, 228, 155, 0.9915615905) 100%) !important;
 }
 
 .bg-opacity-10 {
@@ -13174,7 +13174,7 @@
   --ds-black-rgb: 0, 0, 0;
   --ds-font-sans-serif: "Public Sans", sans-serif;
   --ds-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --ds-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --ds-gradient: linear-gradient(8deg, rgb(200, 250, 214) 0%, rgb(200, 250, 214) 48%, rgba(91, 228, 155, 0.9915615905) 100%);
   --ds-body-font-family: var(--ds-font-sans-serif);
   --ds-body-font-size: 0.875rem;
   --ds-body-font-weight: 500;
@@ -24583,7 +24583,7 @@ textarea.form-control-lg {
 
 .bg-bg-gradient {
   --ds-bg-opacity: 1;
-  background-color: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)) !important;
+  background-color: linear-gradient(8deg, rgb(200, 250, 214) 0%, rgb(200, 250, 214) 48%, rgba(91, 228, 155, 0.9915615905) 100%) !important;
 }
 
 .bg-opacity-10 {
