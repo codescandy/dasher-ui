@@ -5,6 +5,7 @@
 @import '../../../../node_modules/bootstrap/scss/mixins';
 @import '../../../../node_modules/bootstrap/scss/utilities';
 
+
 $utilities: map-merge(
   $utilities,
   (
@@ -257,4 +258,4 @@ $utilities: map-merge(
 
 @import '../../../../node_modules/bootstrap/scss/utilities/api';
 // Utilities classes
-
+@import "../theme/utilities/icon-shape";
