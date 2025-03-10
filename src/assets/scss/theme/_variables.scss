@@ -466,8 +466,8 @@ $border-widths: (
 
 $border-style: solid !default;
 $border-dashed: dashed !default;
-$border-color: var(--#{$prefix}gray-300) !default;
-$border-color-translucent: var(--#{$prefix}gray-300) !default;
+$border-color: var(--#{$prefix}gray-400) !default;
+$border-color-translucent: var(--#{$prefix}gray-400) !default;
 // scss-docs-end border-variables
 
 // scss-docs-start border-radius-variables

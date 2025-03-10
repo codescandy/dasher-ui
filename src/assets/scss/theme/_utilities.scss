@@ -258,4 +258,5 @@ $utilities: map-merge(
 
 @import '../../../../node_modules/bootstrap/scss/utilities/api';
 // Utilities classes
-@import "../theme/utilities/icon-shape";
+@import "./utilities/icon-shape";
+@import "./utilities/border";
