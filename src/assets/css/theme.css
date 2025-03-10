@@ -34104,3 +34104,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.lift {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+  border-radius: 0.75rem;
+}
+.lift:hover {
+  transform: translateY(-0.4rem);
+  box-shadow: 0 0.25rem 1.25rem rgba(52, 63, 82, 0.1);
+}
